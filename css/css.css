@@ -1,0 +1,212 @@
+
+/* CSS applying to everything */
+
+* {
+	text-align: center;
+	font-family: Karla-Regular, calibri;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a,li {
+	text-decoration: none;
+	display: inline;
+}
+
+img.logo {
+	width: 150px;
+	height: 150px;
+}
+
+.copyright {
+	text-align: left;
+	padding-left: 600px;
+}
+
+h1 {
+	font-size: 23px;
+	font-family: Hello Stranger, calibri;
+}
+
+div .andfont {
+	font-family: calibri;
+}
+
+/* CSS NAV MENU */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 14px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* hover kleur kopjes*/
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: pink;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* hover kleur menu items*/
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* CSS Homepage */
+
+img.foto-eva {
+	width: 350px;
+	height: 350px;
+	padding-top: 20px;
+}
+
+
+p.homepaginatekst {
+	width: 590px;
+	text-align: left;
+	padding-left: 390px;
+	padding-bottom: 20px;	
+}
+
+/* CSS Workshops Playful interaction/Arduino: Assignments */
+
+/*img.eg-assignment {
+	width: 450px;
+	height: 550px;
+	padding-right: 20px;
+	padding-top: 10px;
+}*/
+
+p.beschrijving {
+	width: 680px;
+	text-align: left;
+	padding-left: 320px;
+	padding-bottom: 10px;
+}
+
+img.arduino-exercise, .processlabweken {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	width: 706px;
+	height: 450px;
+}
+
+img.cv-assignment {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	width: 800px;
+	height: 450px;
+}
+
+img.schetslabweken {
+	width: 706px;
+	height: 950px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+img.projectionmapping {
+	width: 900px;
+	height: 350px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+img.schalen {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	width: 550px;
+	height: 450px;
+}
+
+.exhibitielamp {
+	width: 550px;
+	height: 730px;
+	padding-bottom: 5px;
+}
+
+.werkfoto {
+	width: 706px;
+	height: 500px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+img.woeW2 {
+	width: 706px;
+	height: 650px;
+}
+
+h1.toptitel {
+	padding-top: 30px;
+}
+
+/* CSS Arduino assignments */
+
+h1.ex-arduino {
+	padding-top: 20px;
+}
+
+/* AR&VR Assignments CSS */
+
+
+/* CSS excursie */
+
+.exhibitiewerk {
+	width: 500px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.selfie-exhibitie {
+	width: 350px;
+	height: 450px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.beschrijvingexcursie {
+	width: 800px;
+	text-align: left;
+	padding-left: 320px;
+    padding-bottom: 40px;
+}
